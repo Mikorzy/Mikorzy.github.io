@@ -1,0 +1,167 @@
+.lw {
+    font-size: 60px;
+    
+}
+body{
+color:rgb(53, 8, 8);
+background-image: url("https://c4.wallpaperflare.com/wallpaper/300/544/973/discord-wallpaper-preview.jpg");
+text-align:justify;
+margin-top: 25mm;
+margin-bottom: 25mm;
+margin-left: 30mm;
+margin-right: 30mm;
+font-size: 5mm;
+font-family: "Helvetica Neue", sans-serif;
+margin-top: 5mm;
+}
+#fond_blanc{
+    background-color:aliceblue;
+}
+#image_odyssey{
+    float:right;
+    margin-left:10mm;
+}
+#odyssey{
+    clear:right;
+}
+#sous-titre_Magnavox{
+    text-align:right;
+    font-style: italic;
+}
+#Image_famicom{
+    float:right;
+}
+#sous-titre_famicom{
+    font-style:italic;
+    float:right;
+}
+#version_gameboy{
+    float:left;
+    margin-right:5mm;
+}
+
+a{
+    margin-right: 20mm;
+    margin-left: 20mm;
+    font-family: Liberation Sans, sans-serif;
+}
+
+h1{
+    text-align:center;
+    margin-top:5mm;
+}
+h2{
+    text-align:center;
+}
+h3{
+    text-align:center;
+}
+h4{
+    text-align:center;
+}
+iframe{
+    align-items:center;
+}
+#video{
+   float:center;
+
+} 
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+    scroll-padding-top:50px;
+}
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    position: sticky;
+    top: 0px;
+    opacity:0.1;
+
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float:left;
+    width: 25%;
+    text-align:justify;
+    position: relative;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px; 
+}
+
+nav a:hover{
+    color: orange;
+    border-bottom: 2px solid gold;
+
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: whitesmoke;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+
+}
+.deroulant > a::after{
+    font-size: 12px;
+}
+
+.conteneur{
+  margin: 5px 20px;
+  height: 1500px;
+}
+nav:hover{
+    opacity:1;
+}
+#video{
+    place-items: center stretch;
+}
+#atari_jaguar{
+    float:left;
+    margin-right:5mm;
+    margin-bottom:5mm;
+}
+#sous-titre_jaguar{
+    font-style:italic;
+}
+nav::-ms-fill-upper{
+    opacity:1;
+}
